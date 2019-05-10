@@ -50,6 +50,7 @@ public class Node {
             }
         }
         // System.out.println("FINAL");
-        for (String fine : max) System.out.println(fine);
+        // for (String fine : max) System.out.println(fine);
+        System.out.println(String.join(" ", max));
     }
 }
